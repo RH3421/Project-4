@@ -1,6 +1,6 @@
 # Is it Pneumonia?
 
-![image](https://github.com/RH3421/Project-4/blob/main/Images/Screen%20Shot%202022-03-31%20at%203.36.37%20PM.png?raw=true)
+![image](https://github.com/RH3421/Project-4/blob/main/Images/Header.png)
 
 Authors:  [Richard Hinds](https://github.com/RH3421), [Nick Kennedy](https://github.com/nikennedy), and [Ilene Sorto](https://github.com/ileneee )
 
@@ -11,7 +11,8 @@ Globally, 1 in 71 children contract pneumonia every year. Unfortunately, pediatr
 Countries with few pediatric radiologists per capita may have potentially higher risks of delays in diagnosis and corresponding treatment failures. Higher costs and interventional risks may also be worsened. Thus, our team endeavored to produce a diagnostic support tool, leveraging machine learning to speed and improve diagnosis of pediatric pneumonia. We believe our diagnostic support tool will be particularly useful in helping healthcare providers in low-density countries.
 
 ## Data Understanding
-We used 5224 pediatric chest xrays to develop a diagnostic support tool. There were 1341 normal CXR, 3883 PNA CXR. Recall was the metric of choice as failure to properly diagnose pneumonia (or false negative) could potentially be fatal to the child. Using recall allows us to try to reduce these false negatives.
+![image](https://github.com/RH3421/Project-4/blob/main/Images/Normal%20v%20PNA%20CXR.png)
+We used 5224 pediatric chest xrays to develop a diagnostic support tool that can differentiate between a normal chest xray (CXR) and a chest xray in a pediatric patient with pneumonia. There were 1341 normal CXR, 3883 pneumonia CXR. Recall was the metric of choice as failure to properly diagnose pneumonia (or false negative) could potentially be fatal to the child. Using recall allows us to try to reduce these false negatives.
 
 ## Modeling
 We used a convolutional neural network (CNN) to developed our diagnostic support tool as they’re good for image classification. CNNs are particularly strong when for image classification especially wehn geared towards color images.
