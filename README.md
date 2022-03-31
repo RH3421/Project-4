@@ -1,6 +1,6 @@
 # Is it Pneumonia?
 
-![image](https://user-images.githubusercontent.com/96458808/157768617-494374d0-7b78-40cf-ac06-bb6bef64a0ff.png)
+![image](https://github.com/RH3421/Project-4/blob/main/Images/Screen%20Shot%202022-03-31%20at%203.36.37%20PM.png?raw=true)
 
 Authors:  [Richard Hinds](https://github.com/RH3421), [Nick Kennedy](https://github.com/nikennedy), and [Ilene Sorto](https://github.com/ileneee )
 
