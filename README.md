@@ -27,6 +27,6 @@ Given recent events, including a global pandemic that frequently resulted in pne
 With more time and data we believe our diagnostic support tool can be further improved and may be applicable for evaluation of adult chest xrays. We also plan to refine our model toaccurately differentiate between bacterial and viral pneumonia. Additionally, incorporation clinical data, such vitals signs and blood lab tests, shoulder further improve our diagnostic support tool.
 
 ## For More Information
-View the full model via the [Jupyter Notebook](https://github.com/RH3421/Project-4/blob/main/Notebook.ipynb).
+View the full model via the [Jupyter Notebook](https://github.com/RH3421/Project-4/blob/main/Main_Notebook.ipynb).
 
 
