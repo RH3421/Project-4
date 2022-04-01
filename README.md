@@ -18,7 +18,7 @@ We used 5224 pediatric chest xrays to develop a diagnostic support tool that can
 We used a convolutional neural network (CNN) to developed our diagnostic support tool as they’re good for image classification. CNNs are particularly strong when for image classification especially when geared towards color images.
 
 ## Results
-Our diagnostic support tool achieved 95% recall, meaning that only 1 in 20 cases of actual pneumonia were incorrectly labeled.
+Our diagnostic support tool achieved 100% recall.
 
 ## Conclusions
 Given recent events, including a global pandemic that frequently resulted in pneumonia for those affected and overwhelmed healthcare resources, having a diagnostic support tool to accelerate diagnosis without adding strain to hospital staff is of enormous value. Our diagnostic support tool accurately identifies pediatric pneumonia 100% of the time. We think our diagnostic support tool could be particularly valuable in underserviced communities around the world where pediatric radiologists are scarce.
