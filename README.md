@@ -15,7 +15,7 @@ Countries with few pediatric radiologists per capita may have potentially higher
 We used 5224 pediatric chest xrays to develop a diagnostic support tool that can differentiate between a normal chest xray (CXR) and a chest xray in a pediatric patient with pneumonia. There were 1341 normal CXR, 3883 pneumonia CXR. Recall was the metric of choice as failure to properly diagnose pneumonia (or false negative) could potentially be fatal to the child. Using recall allows us to try to reduce these false negatives.
 
 ## Modeling
-We used a convolutional neural network (CNN) to developed our diagnostic support tool as they’re good for image classification. CNNs are particularly strong when for image classification especially wehn geared towards color images.
+We used a convolutional neural network (CNN) to developed our diagnostic support tool as they’re good for image classification. CNNs are particularly strong when for image classification especially when geared towards color images.
 
 ## Results
 Our diagnostic support tool achieved 95% recall, meaning that only 1 in 20 cases of actual pneumonia were incorrectly labeled.
