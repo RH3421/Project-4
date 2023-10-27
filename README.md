@@ -2,8 +2,6 @@
 
 ![image](https://github.com/RH3421/Project-4/blob/main/Images/Header.png)
 
-Authors:  [Richard Hinds](https://github.com/RH3421), [Nick Kennedy](https://github.com/nikennedy), and [Ilene Sorto](https://github.com/ileneee)
-
 ## Background
 Globally, 1 in 71 children contract pneumonia every year. Unfortunately, pediatric pneumonia is also frequently fatal resulting in an estimated 2,200 deaths per day worldwide. To diagnose pediatric pneumonia highly skilled physicians, such as pediatric radiologists, are needed to interpret the medical imaging. However, the distribution of these providers is highly disparate globally. 
 
