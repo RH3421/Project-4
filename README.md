@@ -10,7 +10,7 @@ Countries with few pediatric radiologists per capita may have potentially higher
 
 ## Data Understanding
 ![image](https://github.com/RH3421/Project-4/blob/main/Images/Normal%20v%20PNA%20CXR.png)
-We used 5448 pediatric chest xrays to develop a diagnostic support tool that can differentiate between a normal chest xray (CXR) and a chest xray in a pediatric patient diagnosed with pneumonia. There were 1181 normal CXR, 3418 pneumonia CXRs. Recall was the metric of choice as failure to properly diagnose pneumonia (or false negative) could potentially be fatal to the child. Using recall allows us to optmize towards reducing these false negatives.
+We used 5848 pediatric chest xrays to develop a diagnostic support tool that can differentiate between a normal chest xray (CXR) and a chest xray in a pediatric patient with pneumonia. There were 1575 normal CXR, 4273 pneumonia CXR. Recall was the metric of choice as failure to properly diagnose pneumonia (or false negative) could potentially be fatal to the child. Using recall allows us to try to reduce these false negatives.
 
 ## Modeling
 We used a convolutional neural network (CNN) to developed our diagnostic support tool as they’re good for image classification, especially when geared towards color images.
@@ -19,10 +19,10 @@ We used a convolutional neural network (CNN) to developed our diagnostic support
 Our diagnostic support tool achieved 98% recall.
 
 ## Conclusions
-Given recent events, including a global pandemic that frequently resulted in pneumonia for those affected and overwhelmed healthcare resources, having a diagnostic support tool to accelerate diagnosis without adding strain to hospital staff is of enormous value. Our diagnostic support tool accurately identifies pediatric pneumonia 98% of the time. However, it appears that our high recall rate is in part due to over-diagnosing, as there are some false positives, and very few true negatives with accuracy being a respectable 71%.
+Utilization of a diagnostic support tool to accelerate identification of pediatric pneumonia without adding strain to hospital staff is of enormous value. This diagnostic support tool identifies pediatric pneumonia with high performance. This diagnostic support tool could be particularly valuable in underserved communities around the world where pediatric radiologists are scarce.
 
 ## Future Considerations
-With more time and a larger dataset we believe our diagnostic support tool can be further improved and may be applicable for evaluation of adult chest xrays. We also plan to refine future iterations of our model to accurately differentiate between bacterial and viral pneumonia. Additionally, incorporation clinical data, such vital signs and blood lab tests, should further improve our diagnostic support tool.
+With additional resources and data this diagnostic support tool can be further improved and may be applicable for evaluation of adult chest xrays. Additionally, incorporation of clinical data, such as vitals signs and blood lab tests, should further improve the performance of this diagnostic support tool.
 
 ## For More Information
 View the full model via the [Jupyter Notebook](https://github.com/RH3421/Project-4/blob/main/Main_Notebook.ipynb).
